@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: roboto, segoe ui,tahoma, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+main h3{
+    text-align: center;
+}
+
+h3{
+    border-bottom: 1px solid red;
+    width: 30%;
+    margin: 50px auto;
+    color: red;
+    text-transform: uppercase;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap column;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.card1, .card2, .card3{
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px ;
+    justify-content: center;
+    height: max-content;
+    /*width: 100px;*/
+}
+
+p, li{
+    font-size: 13px;
+}
+
+.bar{
+    border: .7px solid red;
+    height: 1em;
+    background: rgba(231, 221, 221, 0.938);
+    margin: 10px;
+}
+
+.card h4{
+    text-transform: uppercase;
+    color: red;
+    text-align: center;
+}
+
+.card1:hover{
+    border: 1px solid black;
+    background: rgba(231, 221, 221, 0.938);
+}
+
+.card2:hover{
+    border: 1px solid black;
+    background: rgba(231, 221, 221, 0.938);
+}
+
+.card3:hover{
+    border: 1px solid black;
+    background: rgba(231, 221, 221, 0.938);
+}
+
+.list{
+    margin-top: 1em;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
