@@ -1,0 +1,303 @@
+/* html main styling */
+@import"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+i{
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+
+.prop-one p{
+font-family: "Dosis", sans-serif;
+font-size: 30px;
+line-height: 39.6px;
+color: #fff;
+text-transform: uppercase;
+padding: 10px;
+box-sizing: border-box;
+text-align: center;
+}
+
+.prop-two p{
+font-family: "Dosis", sans-serif;
+font-size: 18px;
+line-height: 25.7143px;
+color: #fff;
+text-align: center;
+}
+
+.header-property{
+position: absolute;
+top: 13px;
+right: 36%;
+}
+
+.title-under {
+    display: block;
+    margin: 5px auto;
+    background: white;
+    height: 1px;
+    width: 280px;
+}
+
+.title-under:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 10px;
+    right: 20px;
+}
+
+
+
+/* contact us main styling */
+
+.contact-img img{
+    width: 100vw;
+    height: 190px;
+    position: relative;
+
+}
+
+.contact-form{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+
+}
+
+.contact-header span{
+    background-color: red ;
+    margin-right: 290px;
+}
+
+.left{
+    width: 58.33333333%;
+    /* width: 100%; */
+}
+
+
+.right{
+    width: 33.33333333%;
+    margin-left: 8.33333333%;
+}
+
+.main-form{
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+
+input[type=text] {
+    width: 49.5%;
+    padding: 5px ;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=email] {
+    width: 49.5%;
+    padding: 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  ::placeholder { 
+    color: #555555;
+    opacity: 1;
+    font-family: "Open sans", sans-serif;
+    font-size: 14px;
+  }
+
+  .contact-header p{
+      text-transform: uppercase;
+      color: red;
+      line-height: 28.6px;
+      font-size:22px;
+      font-family: "Dosis", sans-serif;
+  }
+
+  
+
+
+
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    /* background-color: #f8f8f8; */
+    font-size: 16px;
+    resize: none;
+    margin-top: 10px;
+  }
+
+  button{
+    background-color: #ff0000;
+    color: white;
+    padding:5px 20px;
+    font-size: 11px;
+    font-family: "open sans", sans-serif;
+    line-height: 20px;
+    float: right;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: none;
+    margin-top: 10px;
+  }
+
+  button:hover{
+      background-color: #fff;
+      color: red;
+  }
+
+
+  .address, .phone, .email{
+      padding: 5px;
+  }
+
+  .address{
+      display: flex;
+  }
+
+  .address p{
+      font-size: small;
+      padding: 4px;
+  }
+
+
+
+  .phone{
+      display: flex;
+  }
+
+  .phone a{
+      padding: 4px;
+      font-size: small;
+      color: black;
+
+  }
+
+  .email a{
+      font-size: small;
+      padding: 10px;
+      color: black;
+  }
+
+
+
+  @media (max-width: 768px){
+
+    .contact-form{
+        display: block;
+        padding: 0 !important;
+    }
+
+    .right{
+        margin-left: 5px;
+    }
+
+
+    input[type=text] {
+        width: 100%;
+        padding: 5px ;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }   
+
+    input[type=email] {
+        width: 100%;
+        padding: 5px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    .left{
+        width:100%;
+        padding: 10px;
+    }
+    
+    
+    .right{
+        width: 100%;
+        padding: 0 !important;
+        margin-top: 60px;
+    }
+
+    
+    
+
+
+    i{
+        padding: 5px;
+        background-color: red;
+        color: #fff;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .contact-img img{
+        width: 100%;
+        height: 120px;
+        position: relative;
+    }
+
+
+    .header-property{
+        position: absolute;
+        top: 6px;
+        right: 19%;
+        }
+
+        .contact-header span{
+            background-color: red ;
+            margin-right: 290px;
+        }
+
+
+  }
+
+  .title-under {
+    display: block;
+    margin: 5px auto;
+    background: #fff;
+    height: 1px;
+    width: 280px;
+}
+
+.title-under:after {
+    content: '';
+    display: block;
+    width: 100px;
+    background: inherit;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 10px;
+    right: 20px;
+}
+
+
+  
