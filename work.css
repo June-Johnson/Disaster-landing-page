@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: roboto, segoe ui,tahoma, sans-serif;
+}
+
+/* THE NAVIGATION SECTION */
+
+img {
+    width: 60px;
+    height: 45px;
+    margin-top: 25px;
+}
+
+hr {
+    width: 100%;
+    color: red;
+    border-style: solid;
+    border-width: 4px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 0 100px;
+}
+
+.nar-links {
+    display: flex;
+    list-style: none;
+}
+
+.nar-set a {
+    text-decoration: none;
+    color: red;
+    padding: 20px 20px;
+    font-size: 1.3vw;
+}
+
+.nar-set a:hover {
+    background-color:#fff;
+    color: white;
+    border-radius: 1rem;
+}
+
+/* header section with the girls face*/
+header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(heading-bg.jpg);
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+/*img{
+    width: 100%;
+    height: 300px;
+}*/
+
+header h1{
+    border-bottom: 1px solid #fff;
+    width: 40%;
+    margin: 10px auto;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 10px;
+}
+
+main h3{
+    text-align: center;
+}
+
+h3{
+    border-bottom: 1px solid red;
+    width: 30%;
+    margin: 50px auto;
+    color: red;
+    text-transform: uppercase;
+}
+
+.card{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+}
+
+.card1, .card2, .card3{
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px ;
+    justify-content: center;
+    height: max-content;
+    /*width: 100px;*/
+}
+
+p, li{
+    font-size: 13px;
+}
+
+.bar{
+    border: .7px solid red;
+    height: 1em;
+    background: rgba(231, 221, 221, 0.938);
+    margin: 10px;
+}
+
+.card h4{
+    text-transform: uppercase;
+    color: red;
+    text-align: center;
+}
+
+/*.title-under{
+    position: relative;
+    width: 200px;
+    background-color: red;
+    height: 3px;
+    z-index: 1;
+}
+
+.title-under::after{
+    width: 200px;
+    background-color: red;
+    height: 3px;
+    bottom: 5px;
+    position: absolute;
+}*/
+
+.card1:hover{
+    border: 1px solid black;
+    background: rgba(231, 221, 221, 0.938);
+}
+
+.card2:hover{
+    border: 1px solid black;
+    background: rgba(231, 221, 221, 0.938);
+}
+
+.card3:hover{
+    border: 1px solid black;
+    background: rgba(231, 221, 221, 0.938);
+}
+
+.list{
+/*    margin-top: 1em;
+    align-items: flex-end;*/
+    text-align: justify;
+    list-style: inside;
+    padding-left: 25px;
+}
+
+
+ /*for smaller screen orientation*/
+@media all and (max-width: 650px) {
+    header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h1{
+        width: 40%;
+        margin: 10px auto;text-transform: uppercase;
+        font-size: 
+        30px;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 20px;
+    }
+}
+
+
+/* THE FOOTER SECTION */
+
+/* DISASTER ALERT */
+
+.entire-footer {
+    width: 100%;
+    height: 400px;
+    background-color: red;
+    color: white;
+    padding-top: 50px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-main {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.setters a {
+    text-decoration: none;
+    color: white;
+}
+
+.setters li {
+    list-style: none;
+}
+
+.disaster-set1 ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.disaster-set1 li a {
+    color: white;
+    padding: 0 5px;
+}
+
+.footer-disaster {
+    width: 50%;
+    line-height: 0.7cm;
+}
+
+.disaster-set {
+    margin-top: 20px;
+}
+
+
+/* OUR PROGRAMS */
+
+.footer-program {
+    width: 50%;
+    line-height: 0.6cm;
+    position: relative;
+    margin-right: 100px;
+}
+
+.program {
+    margin-top: 25px;
+}
+
+
+/* CONTACT US */
+
+.footer-contact {
+    width: 30%;
+    line-height: 0.7cm;
+    margin-right: 50px;
+}
+
+
+input[type="text"] {
+    width: 400px;
+    font-size: 1rem;
+    padding: 10px 10px;
+    outline: none;
+    border: 1px solid white;
+    background-color: red;
+}
+
+
+input[type="email"] {
+    width: 400px;
+    font-size: 1rem;
+    padding: 10px 10px;
+    outline: none;
+    border: 1px solid white;
+    background-color: red;
+}
+
+textarea {
+    width: 400px;
+    height: 70px;
+    font-size: 1rem;
+    padding: 10px 10px;
+    outline: none;
+    border: 1px solid white;
+    background-color: red;
+}
+
+.footer-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-btn a {
+    background: red;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 10px;
+}
+
+::placeholder {
+    color: white;
+    font-size: 1rem;
+}
+
+.footer-input1 {
+    margin-top: 20px;
+}
+
+.footer-input2 {
+    position: relative;
+    padding-top: 5px;
+}
+
+.footer-textarea {
+    position: relative;
+    padding-top: 5px;
+}
+
+
+/* THE FOOTER BOTTOM */
+
+.footer-bottom {
+    padding-top: 50px;
+    padding-left: 74%;
+    font-weight: normal;
+}
+
+.bottom {
+    text-decoration: none;
+    color: white;
+}
+
+.line {
+    width: 80%;
+    color: white;
+    border-width: 1px;
+    margin-top: 10px;
+}
+
+
+
+
